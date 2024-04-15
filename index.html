@@ -6,11 +6,21 @@
     <title>Company Name</title>
     <link rel="stylesheet" href="./style/style.css">
     <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.19/fullpage.min.css" integrity="sha512-DbP1b6q56Ud5q0L+lvw9COyyH/+pN1lVmySvun4UsH8vmfdIHou+PAHfMnGXf6Fvd9rYLjSojeuPhQz2euU1cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+      <div id="fullpage">
+        <nav class="navbar">
+          <img src="./assets/logo.png" alt="Logo" class="logo">
+          <ul class="nav-items">
+            <a href="#home" class="link"><li class="nav-item">Home</li></a>
+            <a href="#about" class="link"><li class="nav-item">About</li></a>
+            <a href="#product" class="link"><li class="nav-item">Product</li></a>
+            <a href="#team" class="link"><li class="nav-item">Team</li></a>
+          </ul>
+        </nav>
         <div class="section" id="home">
-            
+            <div class="content">
                 <h1 class="text" id="heading">Word Weavers<br>Press</h1>
                 <!-- <h2 class="text" id="description">
                   At WordWeavers Press, our mission is to cultivate an immersive and welcoming space for book lovers. We're dedicated to fostering exploration, discovery, and appreciation of literature.</h2>
@@ -19,7 +29,7 @@
                         <span></span><span></span><span></span><span></span>
                       </li>
                     </a> -->
-            
+                  </div>
         </div>
         <div class="section" id="about">
             <div class="content">
@@ -27,9 +37,9 @@
                 <h2 class="text-black" id="description-about">At WordWeavers Press, our vision is to establish a vibrant community hub for bibliophiles, where individuals from all walks of life can immerse themselves in the enchanting realm of literature. Through our diverse selection of books and events, we aim to spark curiosity, facilitate exploration, and foster connections among fellow enthusiasts. Come join us as we embark on a journey to celebrate the power and beauty of words.</h2>
                 <img src="./assets/words.png" alt="Poster" class="img" id="image">
                 <div class="icon-container">
-                    <i class="fa-brands fa-4x fa-square-instagram" style="color: #B197FC;"></i>
-                    <i class="fa-brands fa-square-x-twitter fa-4x" style="color: #B197FC;"></i>
-                    <i class="fa-brands fa-square-facebook fa-4x" style="color: #B197FC;"></i>
+                    <a href="https://www.instagram.com/wordweaverspress/"0 class="link"><i class="fa-brands fa-4x fa-square-instagram" style="color: #B197FC;"></i></a>
+                    <a href="https://www.instagram.com/wordweaverspress/" class="link"><i class="fa-brands fa-square-x-twitter fa-4x" style="color: #B197FC;"></i></a>
+                    <a href="https://www.instagram.com/wordweaverspress/" class="link"><i class="fa-brands fa-square-facebook fa-4x" style="color: #B197FC;"></i></a>
                 </div>
             </div>
         </div>
@@ -168,10 +178,11 @@
              </div>
          </div>
      </div>
+    </div>
     
     <script src="https://kit.fontawesome.com/0df7b1e125.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
-    <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.19/fullpage.min.js" integrity="sha512-GS3CSFQ4aj+0fL2a0wV1ouvpdbTZ3eEUriXTpXt50dc0CkO1fgyWuLoPA5NWy1PAWmcaZNneM+OAThgCqPnX+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./script/script.js"></script>
 </body>
 </html>
