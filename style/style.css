@@ -440,6 +440,11 @@ body .options {
   height: 400px;
   margin-left: 8rem;
   margin-top: 2rem;
+  
+}
+
+.option {
+  background-size: cover !important;
 }
 @media screen and (max-width: 718px) {
   body .options {
@@ -479,7 +484,7 @@ body .options .option {
   min-width: 60px;
   margin: 10px;
   background: var(--optionBackground, var(--defaultBackground, #E6E9ED));
-  background-size: auto 120%;
+  background-size: cover;
   background-position: center;
   cursor: pointer;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
@@ -606,7 +611,7 @@ body .options .option .label .info .sub {
 
 }
 
-.team-image {
+.team-img {
   background-color: #000;
   width: 10rem;
   height: 10rem;
@@ -620,6 +625,7 @@ body .options .option .label .info .sub {
   margin-bottom: 0px;
   margin-left: 0px;
   line-height: 25px;
+  color: #fffffff1 !important;
 }
 
 .responsive-cell-block {
@@ -669,6 +675,10 @@ body .options .option .label .info .sub {
   margin: 0 0 10px 0;
 }
 
+.sub {
+  width: inherit;
+}
+
 .section-subhead-text {
   font-size: 25px;
   color: rgb(153, 153, 153);
@@ -689,6 +699,7 @@ body .options .option .label .info .sub {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .social-media-links {
@@ -700,7 +711,6 @@ body .options .option .label .info .sub {
 .name {
   font-size: 25px;
   font-weight: 700;
-  color: rgb(102, 102, 102);
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 5px;
@@ -717,10 +727,6 @@ body .options .option .label .info .sub {
   margin-left: 0px;
 }
 
-.team-img {
-  width: 100%;
-  height: 100%;
-}
 
 .team-card-container {
   width: 280px;
